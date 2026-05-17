@@ -13,3 +13,18 @@ print(f"Olá, {nome}!")
 print(f"Você nasceu no ano de {ano_nascimento}.")
 print(f"Daqui 10 anos você terá {idade + 10} anos.")
 print (f"Seu IMC é {imc :.2f}")
+
+if imc < 18.5:
+    print("Abaixo do peso")
+elif imc < 25:
+    print("Peso normal")
+elif imc < 30:
+    print("Sobrepeso")
+else:
+    print("Obesidade")
+
+
+if idade >= 18:
+    print("Você é maior de idade")
+else:
+    print("Você é menor de idade")
